@@ -1,7 +1,7 @@
 import React from "react";
 
 import Posts from "./Posts";
-import SideBar from "./Sidebar";
+import SideBar from "./SideBar";
 import { useSession, signIn, signOut } from "next-auth/react";
 const Feed = () => {
   const { data: session } = useSession();

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../.././public/logo.webp";
+import Logo from "../.././public/logo.png";
 import {
   AiOutlineSearch,
   AiFillHome,
@@ -28,8 +28,8 @@ const Header = () => {
         <div>
           <Image
             src={Logo}
-            width={50}
-            height={50}
+            width={80}
+            height={80}
             onClick={() => router.push("/")}
           />
         </div>
